@@ -32,7 +32,7 @@ Tables: `pantry`, `recipes`, `recipe_ingredients` (FK to recipes, ON DELETE CASC
 
 ## Setup / run
 1. Install Android Studio (Hedgehog or newer) with an Android SDK (API 34).
-2. `git clone <your-repo-url>` and open the folder in Android Studio (File > Open).
+2. `git clone <https://github.com/hamzamohammad-6r/SmartPantryManager.git>` and open the folder in Android Studio (File > Open).
 3. Let Gradle sync finish (needs internet the first time).
 4. Create an emulator (e.g. Pixel 6, API 34) or plug in a device with USB debugging.
 5. Press **Run**. To run the unit tests: right-click `RecipeMatcherTest` > Run.
