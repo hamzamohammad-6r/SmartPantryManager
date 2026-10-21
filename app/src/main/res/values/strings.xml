@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Smart Pantry Manager</string>
+
+    <string name="nav_pantry">Pantry</string>
+    <string name="nav_suggested">Recipes</string>
+    <string name="nav_settings">Settings</string>
+
+    <string name="pantry_title">My Pantry</string>
+    <string name="suggested_title">Suggested Recipes</string>
+    <string name="settings_title">Settings</string>
+    <string name="empty_pantry">Your pantry is empty. Tap + to add your first ingredient.</string>
+    <string name="empty_suggested">No recipes match your pantry yet - add more ingredients.</string>
+    <string name="almost_header">Almost There (missing just one ingredient)</string>
+    <string name="missing_one">Missing: %1$s</string>
+    <plurals name="ingredient_count">
+        <item quantity="one">%d ingredient</item>
+        <item quantity="other">%d ingredients</item>
+    </plurals>
+
+    <string name="add_ingredient">Add Ingredient</string>
+    <string name="edit_ingredient">Edit Ingredient</string>
+    <string name="hint_name">Ingredient name (e.g. tomatoes)</string>
+    <string name="hint_qty">Quantity</string>
+    <string name="hint_expiry">Expiry date (optional) - tap to pick</string>
+    <string name="clear_date">Clear date</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="delete_item">Delete this ingredient</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete_title">Delete ingredient?</string>
+    <string name="delete_message">Remove %1$s from your pantry?</string>
+    <string name="delete_desc">Delete</string>
+
+    <string name="expires_on">Expires: %1$s</string>
+    <string name="expires_soon">Expiring soon: %1$s</string>
+    <string name="expired">Expired</string>
+
+    <string name="err_name_required">Please enter an ingredient name</string>
+    <string name="err_name_letters">Name must contain letters</string>
+    <string name="err_qty_required">Please enter a quantity</string>
+    <string name="err_qty_number">Quantity must be a number</string>
+    <string name="err_qty_positive">Quantity must be greater than 0</string>
+    <string name="err_date_invalid">Use a valid date (yyyy-MM-dd)</string>
+    <string name="msg_added">Ingredient added</string>
+    <string name="msg_updated">Ingredient updated</string>
+    <string name="msg_deleted">Ingredient deleted</string>
+
+    <string name="ingredients">Ingredients</string>
+    <string name="method">Method</string>
+
+    <string name="expiry_alerts">Expiring-soon alerts</string>
+    <string name="expiry_alerts_desc">Highlight pantry items that expire within 3 days</string>
+    <string name="default_unit">Default unit for new ingredients</string>
+</resources>
