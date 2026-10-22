@@ -7,7 +7,7 @@ those ingredients - no shopping trip required.
 ## Features
 - Pantry CRUD: add, edit, delete ingredients (name, quantity, unit, optional expiry date)
 - Pantry list (RecyclerView + custom adapter) bound to SQLite
-- 20 pre-seeded recipes (loaded on first run)
+- 30 pre-seeded recipes (loaded on first run)
 - **Suggested Recipes** screen using the strict-matching rule
 - Optional "Almost There" list (recipes missing exactly one ingredient), clearly separated
 - Recipe detail screen (ingredients + method)
