@@ -88,6 +88,36 @@ final class SeedData {
             recipe(db, "Peanut Butter Banana Toast",
                     "1. Toast the bread.\n2. Spread with peanut butter.\n3. Top with sliced banana.",
                     "bread|2|pcs", "peanut butter|2|tbsp", "banana|1|pcs");
+            recipe(db, "Avocado Toast",
+                    "1. Toast the bread.\n2. Mash the avocado with salt and olive oil.\n3. Spread on the toast and serve.",
+                    "bread|2|pcs", "avocado|1|pcs", "salt|0.5|tsp", "olive oil|1|tsp");
+            recipe(db, "Spaghetti Bolognese",
+                    "1. Fry the chopped onion and garlic until soft.\n2. Add the minced beef and brown it.\n3. Add chopped tomatoes and simmer 20 minutes.\n4. Serve over boiled pasta.",
+                    "pasta|200|g", "minced beef|250|g", "tomato|4|pcs", "onion|1|pcs", "garlic|2|pcs");
+            recipe(db, "Chicken Stir-Fry",
+                    "1. Slice the chicken, pepper and onion.\n2. Fry the chicken in hot oil until cooked through.\n3. Add the vegetables and cook 4 minutes.\n4. Stir in the soy sauce and serve.",
+                    "chicken breast|300|g", "bell pepper|1|pcs", "onion|1|pcs", "soy sauce|2|tbsp", "oil|1|tbsp");
+            recipe(db, "Vegetable Omelette",
+                    "1. Dice the pepper and onion and fry in oil for 3 minutes.\n2. Pour in the beaten eggs with the salt.\n3. Cook until set, fold and serve.",
+                    "egg|3|pcs", "bell pepper|1|pcs", "onion|1|pcs", "oil|1|tbsp", "salt|0.5|tsp");
+            recipe(db, "Banana Oat Pancakes",
+                    "1. Mash the bananas.\n2. Mix in the eggs and oats.\n3. Fry spoonfuls in a lightly oiled pan, 2 minutes per side.",
+                    "banana|2|pcs", "egg|2|pcs", "oats|50|g");
+            recipe(db, "Tomato Soup",
+                    "1. Fry the chopped onion and garlic in butter.\n2. Add the chopped tomatoes and a cup of water.\n3. Simmer 20 minutes, blend and season with salt.",
+                    "tomato|6|pcs", "onion|1|pcs", "garlic|2|pcs", "butter|20|g", "salt|1|tsp");
+            recipe(db, "Cheesy Pasta Bake",
+                    "1. Boil the pasta and drain.\n2. Melt the butter, stir in the flour, then whisk in the milk to make a sauce.\n3. Add half the cheese, then mix in the pasta.\n4. Top with the rest of the cheese and bake 20 minutes.",
+                    "pasta|250|g", "cheese|100|g", "milk|200|ml", "butter|20|g", "flour|20|g");
+            recipe(db, "Greek Salad",
+                    "1. Chop the cucumber, tomatoes and onion.\n2. Crumble the feta over the top.\n3. Dress with olive oil and salt.",
+                    "cucumber|1|pcs", "tomato|3|pcs", "onion|1|pcs", "feta cheese|100|g", "olive oil|2|tbsp", "salt|0.5|tsp");
+            recipe(db, "Potato Wedges",
+                    "1. Heat the oven to 220 C.\n2. Cut the potatoes into wedges and toss with oil, salt and paprika.\n3. Bake 30 minutes, turning once.",
+                    "potato|600|g", "oil|2|tbsp", "salt|1|tsp", "paprika|1|tsp");
+            recipe(db, "Peanut Butter Oat Cookies",
+                    "1. Heat the oven to 180 C.\n2. Mash the bananas and mix with the oats and peanut butter.\n3. Spoon onto a tray and bake 12 minutes.",
+                    "oats|100|g", "banana|2|pcs", "peanut butter|2|tbsp");
             db.setTransactionSuccessful();
         } finally {
             db.endTransaction();
